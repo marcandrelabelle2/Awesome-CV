@@ -2,12 +2,14 @@
 %!TEX encoding = UTF-8 Unicode
 % Awesome CV LaTeX Template for CV/Resume
 %
-% This template has been downloaded from:
+% This template has been inspired by:
 % https://github.com/posquit0/Awesome-CV
 %
+% This cv has been downloaded from:
+% https://github.com/marckit/Awesome-CV
+%
 % Author:
-% Claud D. Park <posquit0.bj@gmail.com>
-% http://www.posquit0.com
+% Marc-André Labelle <marckitmail@gmail.com>
 %
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -18,18 +20,18 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+%\documentclass[letterpaper]{awesome-cv}
+\documentclass[french,letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=1.4cm, top=2cm, right=1.4cm, bottom=2cm, footskip=.5cm}
 
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
 % Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+% My Favorite Colors: awesome-blue
+\colorlet{awesome}{awesome-blue}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -51,29 +53,19 @@
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\name{Marc-André}{Labelle}
+%\position{Food Process Junior Engineer{\enskip\cdotp\enskip}Computer Science Student}
+\position{Ingénieur junior en génie alimentaire{\enskip\cdotp\enskip}Étudiant en informatique et génie logiciel}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
+\address{5788, 7e Avenue, Montréal, QC, H1Y 2N8, Canada}
+\mobile{+1 (514) 568-6836}
+\email{marckitmail@gmail.com}
+\github{marckit}
+\gitlab{marckit}
+\linkedin{marckit}
 
-\quote{``Be the change that you want to see in the world."}
+%\quote{"The most important intelligence is not artificial"}
+\quote{"L'intelligence la plus importante n'est pas artificiel"}
 
 
 %-------------------------------------------------------------------------------
@@ -87,7 +79,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {Marc-André Labelle~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -95,15 +87,25 @@
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{cv/education.tex}
-\input{cv/skills.tex}
-\input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+%\input{cv-en-unlinked/education.tex}
+%\input{cv-en-unlinked/skills.tex}
+%\input{cv-en-unlinked/experience.tex}
+%\input{cv-en-unlinked/extracurricular.tex}
+%\input{cv-en-unlinked/honors.tex}
+
+%\input{cv-en/education.tex}
+%\input{cv-en/skills.tex}
+%\input{cv-en/experience.tex}
+%\input{cv-en/extracurricular.tex}
+%\input{cv-en/honors.tex}
+
+\input{cv-fr/formuniversitaire.tex}
+\input{cv-fr/competences.tex}
+\input{cv-fr/experience.tex}
+\input{cv-fr/implicuniv.tex}
+\input{cv-fr/autresexp.tex}
 
 
 %-------------------------------------------------------------------------------
 \end{document}
+
