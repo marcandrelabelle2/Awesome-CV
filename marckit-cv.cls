@@ -23,7 +23,7 @@
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
-\ProvidesClass{awesome-cv}[2020/05/09 v1.0 Curriculum Vitae Class]
+\ProvidesClass{marckit-cv}[2020/05/09 v1.0 Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
 
 
