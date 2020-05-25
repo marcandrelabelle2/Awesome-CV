@@ -24,14 +24,13 @@
 
 <br />
 
-
 ## Table of content
 
+* [Files](#files)
 * [How to Use](#how-to-use)
   * [Requirements](#requirements)
   * [Usage](#usage)
 * [Credit](#credit)
-
 
 ## Files
 
@@ -49,10 +48,17 @@
 
 **pdf**
 
+- Coverletter
+
 | Without Sections | With Sections |
 |:---:|:---:|
 | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-0.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf) |
 
+- Curriculum Vitae
+
+| Without Sections | With Sections |
+|:---:|:---:|
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.pdf) |
 
 ## How to Use
 
