@@ -12,12 +12,12 @@
 
 <div align="center">
   <a href="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/">
-    <img alt="CircleCI" src="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/Awesome-CV.svg?style=shield" />
+    <img alt="CircleCI" src="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/tree/master.svg?style=shield" >
   </a>
-  <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/examples/cv.pdf">
+  <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/pdf/cv.pdf">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
   </a>
-  <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/examples/coverletter.pdf">
+  <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/pdf/coverletter.pdf">
     <img alt="Example Coverletter" src="https://img.shields.io/badge/coverletter-pdf-green.svg" />
   </a>
 </div>
@@ -31,6 +31,28 @@
   * [Requirements](#requirements)
   * [Usage](#usage)
 * [Credit](#credit)
+
+
+## Files
+
+**Source code files**
+- [Source code](texfiles) to build the `tex` to build `pdf`
+- [cv.tex](texfiles/cv.tex)
+  - Uncomment `%cv-lang` to select language
+- [coverletter.tex](texfiles/cv.tex)
+  - Comment the line `\photo[circle,noedge,left]{./images/profile}`
+    with `%` to ignore the picture.
+  - Select between `R`, `C` or `L` to align `\makecvheader[R]`
+
+**Images**
+- Rename any images to `images/profile.png`
+
+**pdf**
+
+| Without Sections | With Sections |
+|:---:|:---:|
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-0.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf) |
+
 
 ## How to Use
 
