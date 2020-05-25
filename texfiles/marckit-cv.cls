@@ -1,0 +1,1 @@
+../marckit-cv.cls

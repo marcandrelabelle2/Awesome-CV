@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/">
-    <img alt="CircleCI" src="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/Awesome-CV.svg?style=shield" />
+    <img alt="CircleCI" src="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/tree/master.svg?style=shield" />
   </a>
   <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/examples/cv.pdf">
     <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />

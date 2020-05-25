@@ -1,16 +1,17 @@
-.PHONY: examples
+.PHONY: texfiles
 
 CC = xelatex
-EXAMPLES_DIR = examples
+TEXFILE_DIR = texfiles
 CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
 
-examples: $(foreach x, coverletter cv, $x.pdf)
+texfiles: $(foreach x, coverletter cv, $x.pdf)
+	mv $(TEXFILE_DIR)/*.pdf pdf
 
-cv.pdf: $(EXAMPLES_DIR)/cv.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+cv.pdf: $(TEXFILE_DIR)/cv.tex
+	$(CC) -output-directory=$(TEXFILE_DIR) $<
 
-coverletter.pdf: $(EXAMPLES_DIR)/coverletter.tex
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+coverletter.pdf: $(TEXFILE_DIR)/coverletter.tex
+	$(CC) -output-directory=$(TEXFILE_DIR) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm -rf $(TEXFILE_DIR)/*.pdf
