@@ -1,4 +1,14 @@
-# My Awesome CV
+<h1 align="center">
+  Curriculum Vitae
+  <br />
+  <a href="https://github.com/marcandrelabelle2/Awesome-CV" title="AwesomeCV Documentation">
+    <img alt="AwesomeCV" src="https://github.com/marcandrelabelle2/Awesome-CV/blob/master/images/profiles/profile04.png" width="200px" height="200px" />
+  </a>
+</h1>
+
+<p align="center">
+  LaTeX CV
+</p>
 
 <div align="center">
   <a href="https://circleci.com/gh/marcandrelabelle2/Awesome-CV/">
