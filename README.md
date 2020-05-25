@@ -46,19 +46,23 @@
 **Images**
 - Rename any images to `images/profile.png`
 
-**pdf**
+**PDF**
 
-- Coverletter
+- Curriculum Vitae
+  - Please download in the [pdf folder](pdf) or clic on the icon below to download it
+    -  <a href="https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/pdf/cv.pdf">
+         <img alt="Example CV" src="https://img.shields.io/badge/cv-pdf-green.svg" />
+      </a>
+
+| CV page one |  CV page two |
+|:---:|:---:|
+| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.png)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.png) |
+
+- Coverletter template
 
 | Without Sections | With Sections |
 |:---:|:---:|
 | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-0.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter-1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/coverletter.pdf) |
-
-- Curriculum Vitae
-
-| CV page one |  CV page two |
-|:---:|:---:|
-| [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.pdf) |
 
 ## How to Use
 
