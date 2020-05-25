@@ -56,7 +56,7 @@
 
 - Curriculum Vitae
 
-| Without Sections | With Sections |
+| CV page one |  CV page two |
 |:---:|:---:|
 | [![Cover Letter(Traditional)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p1.pdf)  | [![Cover Letter(Awesome)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.png)](https://raw.githubusercontent.com/marcandrelabelle2/Awesome-CV/master/images/cv-p2.pdf) |
 
